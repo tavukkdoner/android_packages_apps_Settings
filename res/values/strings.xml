@@ -13017,4 +13017,9 @@
 
     <!--Text for Stylus Pointer Icon preference -->
     <string name="show_stylus_pointer_icon">Show pointer while hovering</string>
+
+    <!--Special thanks for crave -->
+    <string name="thanks_crave_team" translatable="false">Thanks</string>
+    <!--Special thanks summary for crave -->
+    <string name="thanks_crave_team_summary" translatable="false">to the Crave team :)</string>
 </resources>
