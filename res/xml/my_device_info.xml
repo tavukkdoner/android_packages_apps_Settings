@@ -241,6 +241,14 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
+        <!-- Special thanks -->
+        <Preference
+            android:key="thanks_crave"
+            android:order="54"
+            android:title="@string/thanks_crave_team"
+            android:summary="@string/thanks_crave_team_summary"
+            android:selectable="false"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
