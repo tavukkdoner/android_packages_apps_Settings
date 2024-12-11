@@ -13588,4 +13588,9 @@
 
     <!-- url for learning more about bluetooth audio sharing -->
     <string name="help_url_audio_sharing" translatable="false"></string>
+
+    <!--Special thanks for crave -->
+    <string name="thanks_crave_team" translatable="false">Thanks</string>
+    <!--Special thanks summary for crave -->
+    <string name="thanks_crave_team_summary" translatable="false">to the Crave team :)</string>
 </resources>
