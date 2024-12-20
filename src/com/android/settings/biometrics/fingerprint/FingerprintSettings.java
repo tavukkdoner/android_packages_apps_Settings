@@ -429,6 +429,9 @@ public class FingerprintSettings extends SubSettings {
             Activity activity = getActivity();
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
             mFingerprintUpdater = new FingerprintUpdater(activity, mFingerprintManager);
+            if (mFingerprintManager == null) {
+                finish();
+            }
             mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
             mFingerprintWakeAndUnlock = getContext().getResources().getBoolean(
                     org.lineageos.platform.internal.R.bool.config_fingerprintWakeAndUnlock);
