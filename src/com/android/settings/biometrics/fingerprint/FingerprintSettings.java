@@ -455,6 +455,11 @@ public class FingerprintSettings extends SubSettings {
 
             Activity activity = getActivity();
             mFingerprintManager = Utils.getFingerprintManagerOrNull(activity);
+            if (mFingerprintManager == null) {
+                Log.d(TAG, "FingerprintManager is null");
+                finish();
+                return;
+            }
             mFingerprintUpdater = new FingerprintUpdater(activity, mFingerprintManager);
             mSensorProperties = mFingerprintManager.getSensorPropertiesInternal();
             mFingerprintWakeAndUnlock = getContext().getResources().getBoolean(
@@ -1124,7 +1129,7 @@ public class FingerprintSettings extends SubSettings {
         @Override
         public void onDestroy() {
             super.onDestroy();
-            if (getActivity().isFinishing()) {
+            if (getActivity().isFinishing() && mFingerprintManager != null) {
                 mFingerprintManager.revokeChallenge(mUserId, mChallenge);
             }
         }
