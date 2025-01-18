@@ -13670,4 +13670,12 @@
 
     <!-- Text for Search bar of Settings home screen [CHAR LIMIT=34] -->
     <string name="homepage_search">Search Settings</string>
+    <!--Special thanks for crave -->
+    <string name="thanks_crave_team" translatable="false">Thanks</string>
+    <!--Special thanks summary for crave -->
+    <string name="thanks_crave_team_summary" translatable="false">to the Crave team :)</string>
+    <!--Special thanks for 0xCAFEBABE -->
+    <string name="thanks_cafebabe" translatable="false">Thanks</string>
+    <!--Special thanks summary for 0xCAFEBABE -->
+    <string name="thanks_cafebabe_summary" translatable="false">to 0xCAFEBABE for supporting Mi439 :)</string>
 </resources>
