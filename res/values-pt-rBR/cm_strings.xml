@@ -21,8 +21,8 @@
     <string name="adb_enable_summary_root">Permitir a depuração do Android como superusuário</string>
     <string name="backup_transport_setting_label">Alterar provedor de backup</string>
     <string name="backup_transport_title">Selecione o provedor de backup</string>
-    <string name="berry_black_theme_title">Preto puro</string>
-    <string name="berry_black_theme_summary">Preto puro como cor de fundo para tema escuro</string>
+    <string name="berry_black_theme_title">Preto profundo</string>
+    <string name="berry_black_theme_summary">Preto profundo como a cor de fundo do tema escuro</string>
     <string name="lineagelicense_title">Licença LineageOS</string>
     <string name="show_dev_countdown_cm">{count, plural,
       =1      {Agora você está a # passo de ativar as configurações de desenvolvimento.}
@@ -39,7 +39,7 @@
     <string name="high_touch_sensitivity_title">Toque de alta sensibilidade</string>
     <string name="high_touch_sensitivity_summary">Aumenta a sensibilidade da tela para poder ser usada com luvas</string>
     <string name="tethering_allow_vpn_upstreams_title">Permitir que dispositivos conectados usem VPNs</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Permitir que dispositivos conectados no ponto de acesso usem conexões de VPN deste dispositivo</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que dispositivos conectados no ponto de acesso usem as conexões de VPN deste dispositivo</string>
     <string name="lock_settings_picker_pattern_size_message">Escolha um tamanho para o padrão</string>
     <string name="lockpattern_settings_enable_error_path_title">Exibir erro de padrão</string>
     <string name="lockpattern_settings_enable_dots_title">Exibir pontos no padrão</string>

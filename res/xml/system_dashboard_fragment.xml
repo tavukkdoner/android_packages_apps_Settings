@@ -52,6 +52,15 @@
         settings:controller="com.android.settings.inputmethod.TrackpadSettingsController"/>
 
     <Preference
+        android:icon="@drawable/ic_hand_gesture" 
+        android:key="gesture_system_navigation_input_summary" 
+        android:title="@string/system_navigation_title" 
+        android:order="-255" 
+        android:fragment="com.android.settings.gestures.SystemNavigationGestureSettings" 
+        settings:controller="com.android.settings.gestures.SystemNavigationPreferenceController"
+        settings:keywords="@string/keywords_system_navigation" />
+
+    <Preference
         android:key="gesture_settings"
         android:title="@string/gesture_preference_title"
         android:icon="@drawable/ic_settings_gestures"
@@ -97,11 +106,6 @@
         android:fragment="com.android.settings.users.UserSettings"
         settings:controller="com.android.settings.users.MultiUserPreferenceController"/>
 
-    <com.android.settings.spa.preference.ComposePreference
-        android:key="developer_options"
-        android:order="-40"
-        settings:controller="com.android.settings.system.DeveloperOptionsController"/>
-
     <Preference
         android:key="device_diagnostics"
         android:title="@string/device_diagnostics_title"
@@ -116,4 +120,9 @@
         android:order="-30"
         android:fragment="com.android.settings.system.ResetDashboardFragment"
         settings:controller="com.android.settings.system.ResetPreferenceController"/>
+        
+    <com.android.settings.spa.preference.ComposePreference
+        android:key="developer_options"
+        android:order="100"
+        settings:controller="com.android.settings.system.DeveloperOptionsController"/>
 </PreferenceScreen>
