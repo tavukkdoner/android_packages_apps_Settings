@@ -580,11 +580,6 @@
             android:key="density"
             android:title="@string/developer_smallest_width" />
 
-        <ListPreference
-            android:key="display_cutout_emulation"
-            android:title="@string/display_cutout_emulation"
-            settings:keywords="@string/display_cutout_emulation_keywords" />
-
         <SwitchPreferenceCompat
             android:key="transparent_navigation_bar"
             android:title="@string/transparent_navigation_bar"
@@ -618,11 +613,6 @@
             android:title="@string/show_non_rect_clip"
             android:entries="@array/show_non_rect_clip_entries"
             android:entryValues="@array/show_non_rect_clip_values" />
-
-        <SwitchPreferenceCompat
-            android:key="hwui_force_dark"
-            android:title="@string/hwui_force_dark_title"
-            android:summary="@string/hwui_force_dark_summary" />
 
         <SwitchPreferenceCompat
             android:key="force_msaa"
