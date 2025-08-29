@@ -50,7 +50,7 @@ public class AdbRootPreferenceController extends DeveloperOptionsPreferenceContr
 
     @Override
     public boolean isAvailable() {
-        return true; //mADBRootService.isSupported();
+        return mADBRootService.isSupported();
     }
 
     @Override
