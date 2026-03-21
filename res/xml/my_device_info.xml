@@ -253,6 +253,14 @@
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
             settings:controller="com.android.settings.deviceinfo.BuildNumberPreferenceController"/>
+
+        <!-- tavukkdoner -->
+        <Preference
+            android:key="builder_tavukkdoner"
+            android:order="54"
+            android:title="Maintainer"
+            android:summary="tavukkdoner"
+            android:selectable="false"/>
     </PreferenceCategory>
 
 </PreferenceScreen>
