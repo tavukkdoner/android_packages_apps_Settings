@@ -30,8 +30,6 @@ public class PictureInPictureScreenPreferenceController extends BasePreferenceCo
 
     @Override
     public int getAvailabilityStatus() {
-        return !ActivityManager.isLowRamDeviceStatic()
-                ? AVAILABLE
-                : UNSUPPORTED_ON_DEVICE;
+        return AVAILABLE;
     }
 }
