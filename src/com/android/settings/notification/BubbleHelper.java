@@ -42,10 +42,6 @@ public class BubbleHelper {
      * Returns true if the device supports bubbles.
      */
     public static boolean isSupportedByDevice(Context context) {
-        ActivityManager am = context.getSystemService(ActivityManager.class);
-        if (am.isLowRamDevice()) {
-            return false;
-        }
         if (!Resources.getSystem().getBoolean(com.android.internal.R.bool.config_supportsBubble)) {
             return false;
         }
